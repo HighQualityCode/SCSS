@@ -1,0 +1,71 @@
+.user-status {
+  font-size: $content-size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .users-by-status {
+    margin-bottom: 80px;
+    .onboard-users {
+      margin-bottom: 40px;
+      .onboard {
+        font-size: $content-size;
+        margin-bottom: 20px;
+        color: $title-color;
+        font-weight: bold;
+      }
+    }
+
+    .active-users {
+      .active-title {
+        display: flex;
+        margin-bottom: 20px;
+
+        .left {
+          flex: 1;
+          color: $title-color;
+          font-weight: bold;
+        }
+
+        .right {
+          color: $grey-color;
+        }
+      }
+    }
+
+    .user {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      font-size: $content-size;
+      padding: 10px;
+      border: solid 1px #eee;
+      border-radius: 10px;
+      margin-bottom: 10px;
+
+      .blank-rectangle {
+        width: 30px;
+        height: 30px;
+        background: rgb(250, 247, 247);
+        border-radius: 5px;
+        flex: 0 1 30px;
+        margin-right: 10px;
+      }
+
+      img {
+        border-radius: 30px;
+        margin-right: 20px;
+      }
+
+      .name {
+        flex: 1 1 40%;
+        color: $title-color;
+      }
+    }
+  }
+
+  .retention {
+    margin-bottom: 80px;
+    display: flex;
+  }
+}

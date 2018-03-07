@@ -1,0 +1,20 @@
+.description {
+  width: 500px;
+
+  .category {
+    color: $grey-color;
+  }
+
+  .title {
+    font-size: $sub-title-size;
+    color: $title-color;
+    font-weight: $title-weight;
+    margin-top: 20px;
+  }
+
+  .introduction {
+    margin-top: 20px;
+    font-size: $content-size;
+    line-height: 1.5rem;
+  }
+}

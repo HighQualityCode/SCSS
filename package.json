@@ -1,18 +1,19 @@
 {
   "name": "sass-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a very basic starting point for new web projects. It takes no assumptions about your tech stack and there is no binding to any javascript frameworks or backend systems.",
   "main": "Gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "node-gyp": "^3.6.2"
   },
   "devDependencies": {
     "breakpoint-sass": "^2.7.0",
     "browser-sync": "^2.18.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.0",
     "gulp-sourcemaps": "^2.2.0"
   },
   "scripts": {
@@ -20,5 +21,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olefredrik/sass-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olefredrik/sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/olefredrik/sass-boilerplate#readme"
 }

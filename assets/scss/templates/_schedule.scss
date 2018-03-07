@@ -1,0 +1,25 @@
+.schedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .automation {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .schedule {
+    .time-counter {
+      width: 100%;
+      .counter {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

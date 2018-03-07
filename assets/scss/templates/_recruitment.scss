@@ -1,0 +1,65 @@
+.recruitment {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .description {
+    max-width: 435px;
+    margin: 0 auto;
+  }
+
+  > .image {
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+
+    > img {
+      width: 90%;
+    }
+
+    .explain1 {
+      width: 400px;
+      position: absolute;
+      margin-top: -120px;
+
+      .hypen1 {
+        margin-top: 50px;
+        position: absolute;
+      }
+    }
+
+    .explain2 {
+      width: 300px;
+      margin-top: 70px;
+      position: absolute;
+
+      .hypen2 {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+      }
+    }
+
+    .explain3 {
+      position: absolute;
+      right: 150px;
+      top: -100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment {
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+    .description {
+      margin: 0px;
+      text-align: left;
+    }
+  }
+}

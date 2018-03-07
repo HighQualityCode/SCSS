@@ -1,15 +1,25 @@
-html, body {
+html,
+body {
   font-family: $system-font;
   font-size: 100%;
 }
 
 body {
   background-color: #fff;
-  color:#505050;
+  color: #505050;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
-img, svg { max-width: 100%; }
+@media screen and (min-width: 1400px) {
+  .container.custom-container {
+    max-width: 1360px;
+  }
+}
+
+img,
+svg {
+  max-width: 100%;
+}

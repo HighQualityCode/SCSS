@@ -1,0 +1,58 @@
+$(document).ready(function() {
+  $(".btn-toggle").click(function() {
+    $(this)
+      .find(".btn")
+      .toggleClass("active");
+
+    if ($(this).find(".btn-primary").length > 0) {
+      $(this)
+        .find(".btn")
+        .toggleClass("btn-primary");
+    }
+    if ($(this).find(".btn-warning").length > 0) {
+      $(this)
+        .find(".btn")
+        .toggleClass("btn-warning");
+    }
+    if ($(this).find(".btn-danger").length > 0) {
+      $(this)
+        .find(".btn")
+        .toggleClass("btn-danger");
+    }
+    if ($(this).find(".btn-success").length > 0) {
+      $(this)
+        .find(".btn")
+        .toggleClass("btn-success");
+    }
+    if ($(this).find(".btn-info").length > 0) {
+      $(this)
+        .find(".btn")
+        .toggleClass("btn-info");
+    }
+
+    $(this)
+      .find(".btn")
+      .toggleClass("btn-default");
+  });
+  console.log($(".owl-carousel"));
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      800: {
+        items: 2
+      },
+      1200: {
+        items: 3
+      },
+      1400: {
+        items: 4
+      }
+    }
+  });
+});

@@ -1,0 +1,39 @@
+.rhomboid-container {
+  padding: 30px 10px;
+  transform: skewX(-15deg);
+  border: solid 1px #ccc;
+  border-radius: 20px;
+  display: flex;
+  margin: 0 10px;
+  // min-width: 425px;
+
+  .image {
+    flex-basis: 40%;
+    transform: skewX(15deg);
+    border-right: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .about {
+    flex-basis: 60%;
+    transform: skewX(15deg);
+    padding-left: 20px;
+    font-size: 1rem;
+
+    .title {
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+
+    .content {
+      line-height: 1.25rem;
+    }
+  }
+}

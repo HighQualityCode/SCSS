@@ -1,0 +1,35 @@
+#demo-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: $title-size;
+    color: $title-color;
+    font-weight: $title-weight;
+  }
+
+  p {
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: $content-size;
+  }
+
+  button {
+    margin-top: 40px;
+    padding: 10px 25px;
+    font-size: $content-size;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #demo-description {
+    p {
+      width: 100%;
+    }
+  }
+}

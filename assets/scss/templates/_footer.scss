@@ -1,0 +1,94 @@
+footer {
+  .background {
+    background: url("../img/Rectangle 22@3x.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-part {
+    margin-top: 50px;
+    .left {
+      margin-right: 100px;
+      h1 {
+        font-size: $sub-title-size;
+        margin-bottom: 20px;
+        font-weight: $title-weight;
+        color: white;
+      }
+
+      p {
+        font-size: $content-size;
+        margin-bottom: 30px;
+        color: $grey-color;
+      }
+
+      button {
+        font-size: $content-size;
+        padding: 15px 20px;
+      }
+    }
+
+    .right {
+      margin-right: 150px;
+      h1 {
+        font-size: $sub-title-size;
+        margin-bottom: 20px;
+        font-weight: $title-weight;
+        color: $grey-color;
+      }
+    }
+  }
+
+  .links {
+    font-size: $content-size;
+    color: $grey-color;
+    .left {
+      display: flex;
+      margin-bottom: 30px;
+
+      .learn {
+        flex: 1 1 50%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .userful {
+        flex: 1 1 50%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .middle {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+
+    .right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    a {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    .footer-part {
+      .left {
+        margin-right: 0;
+      }
+    }
+    .links {
+      .right {
+        justify-content: flex-start;
+      }
+    }
+  }
+}

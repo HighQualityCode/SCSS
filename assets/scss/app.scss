@@ -1,23 +1,36 @@
 // External libs
-@import '../../node_modules/breakpoint-sass/stylesheets/breakpoint';
+@import "../../node_modules/breakpoint-sass/stylesheets/breakpoint";
 
 // Functions
-@import 'functions/rem-calc';
+@import "functions/rem-calc";
 
 // Core
-@import 'core/reset';
-@import 'core/accessibility';
-@import 'core/breakpoints';
-@import 'core/colors';
-@import 'core/fonts';
-@import 'core/global';
-@import 'core/page-layout';
-@import 'core/typography';
+@import "core/reset";
+@import "core/accessibility";
+@import "core/breakpoints";
+@import "core/colors";
+@import "core/fonts";
+@import "core/global";
+@import "core/page-layout";
+@import "core/typography";
 
 // Components
-@import 'components/buttons';
-@import 'components/lists';
-@import 'components/tabs';
+@import "components/buttons";
+@import "components/lists";
+@import "components/tabs";
+@import "components/nav";
 
 // Templates
-@import 'templates/example';
+@import "templates/example";
+@import "templates/main";
+@import "templates/demo-description";
+@import "templates/demo-video";
+@import "templates/feedback";
+@import "templates/team";
+@import "templates/user-status";
+@import "templates/description";
+@import "templates/rhomboid-tool";
+@import "templates/rhomboid-group";
+@import "templates/schedule";
+@import "templates/footer";
+@import "templates/recruitment";
